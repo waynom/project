@@ -1,0 +1,174 @@
+ body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bmw1.jpg');
+            font-optical-sizing: auto;
+            font-style: italic;
+            background-repeat: no-repeat;
+        }
+
+
+        .left {
+            display: inline-block;
+            top: 17px;
+            left: 0em;
+            position: absolute;
+            padding: 3px 5px;
+        }
+
+        .left img {
+            width: 6em;
+            margin: -4px 0px;
+        }
+
+
+        .mid {
+            display: block;
+            width: 43%;
+            margin: 0px auto;
+            margin-left: 14em;
+            color: rgb(248, 248, 252);
+            padding-top: 25px;
+            font-family: sans-serif;
+        }
+
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 5em;
+            top: 17px;
+        }
+
+        .bmw-series {
+            display: inline-block;
+            margin: 24px 17px;
+            cursor: pointer;
+        }
+
+
+        .btn {
+            padding: 2px 21px;
+            background-color: rgb(2, 78, 82);
+            color: white;
+            border: 3px solid rgb(143 143 150);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            display: inline-block;
+            font-family: sans-serif;
+        }
+
+        .btn:hover {
+            background-color: rgb(2, 121, 128);
+        }
+
+
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 0em 1em;
+        }
+
+        .navbar li a:hover {
+            color: rgb(221, 223, 222);
+            ;
+            text-decoration: underline;
+
+
+        }
+
+        .navbar li a.active:hover {
+            color: rgb(213, 222, 221);
+            ;
+            text-decoration: underline;
+
+
+        }
+
+        .navbar li a.active {
+            color: rgb(196, 196, 196);
+            text-decoration: underline;
+
+
+        }
+
+        select {
+            cursor: pointer;
+            font-family: sans-serif;
+            border: 3px solid rgb(143 143 150);
+            font-size: 13px;
+            border-radius: 4px;
+            background-color: rgb(2, 78, 82);
+            color: white;
+        }
+
+        select:hover {
+            background-color: rgb(2, 121, 128);
+        }
+
+
+
+        .btn1 {
+            height: 3em;
+            width: 15%;
+            border: 2px solid rgb(152, 152, 158);
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-size: 15px;
+            background-color: rgb(0, 7, 134);
+            color: white;
+        }
+
+        .btn1:hover {
+            background-color: #2e30cc;
+        }
+
+        .containt1 {
+            margin-top: 15em;
+            font-family: auto;
+            padding-left: 50em;
+        }
+
+        .containt2 {
+            padding-left: 53em;
+            font-family: auto;
+        }
+
+        .containt3 {
+            text-align: right;
+            font-family: auto;
+            padding-right: 12em;
+        }
+
+        .gif {
+            cursor: pointer;
+            background-color: white;
+            border-radius: 2em;
+            border: 2px solid #ffffff;
+            height: 3em;
+            width: 3em;
+            text-align: center;
+            margin-left: -43em;
+            margin-bottom: -7em;
+        }
+
+        img.call {
+            width: 23px;
+            height: 23px;
+            margin-top: 13px;
+        }
+        .gif:hover{
+            background-color: antiquewhite;
+        }
